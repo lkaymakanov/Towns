@@ -8,7 +8,7 @@ function deleteTown() {
 	let removed = false;
 	for (let option of $('#towns option')) {
 		if (option.textContent == townName) {
-			removed = true;
+			removed =  true;
 			option.remove();
 		}
 	}
